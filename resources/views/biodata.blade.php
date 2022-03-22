@@ -9,15 +9,7 @@
 @endsection
 
 @section('container')
-            <div class="navbar">
-                <div class="logo"><a href="../index.html">PORT<span>FOLIO</span></a></div>
-                <ul>
-                    <li><a class="btn" href="/">Home</a></li>
-                    <li><a class="btn" href="/about">About</a></li>
-                    <li><a class="btn active" href="/biodata">Biodata</a></li>
-                    <li><a class="btn" href="/contact">Contact</a></li>
-                </ul>
-            </div>
+@include('partial.navi')
             <div class="card">
                 <div class="satu">
                     <table>

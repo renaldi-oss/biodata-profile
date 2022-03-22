@@ -9,7 +9,7 @@
 @endsection
 
 @section('container')
-            <div class="navbar">
+            {{-- <div class="navbar">
                 <div class="logo"><a href="../index.html">PORT<span>FOLIO</span></a></div>
                 <ul>
                     <li><a class="btn" href="/">Home</a></li>
@@ -17,7 +17,8 @@
                     <li><a class="btn" href="/biodata">Biodata</a></li>
                     <li><a class="btn active" href="/contact">Contact</a></li>
                 </ul>
-            </div>
+            </div> --}}
+            @include('partial.navi')
             <div class="card">
                 <div class="satu">
                     <h1>Contact</h1>

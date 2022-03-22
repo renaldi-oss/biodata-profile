@@ -11,15 +11,7 @@
 <div class="hero">
     <img src="assets/img/{{ $gambarku }}" alt="aldiiiiiii">
 </div>
-<div class="navbar">
-    <div class="logo"><a href="index.html">PORT<span>FOLIO</span></a></div>
-    <ul>
-        <li><a class="btn active" href="/">Home</a></li>
-        <li><a class="btn" href="/about">About</a></li>
-        <li><a class="btn" href="/biodata">Biodata</a></li>
-        <li><a class="btn" href="/contact">Contact</a></li>
-    </ul>
-</div>
+@include('partial.navi')
 <div class="heading">
     <h5>Hallo, Perkenalkan Nama Saya</h6>
         <br>
