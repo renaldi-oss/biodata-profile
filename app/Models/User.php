@@ -24,7 +24,7 @@ class User extends Authenticatable
     ];
 
     /**
-     * The attributes that should be hidden for serialization.
+     * The attributes that should be hidden for serialization.ex
      *
      * @var array<int, string>
      */
@@ -32,7 +32,6 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
-
     /**
      * The attributes that should be cast.
      *

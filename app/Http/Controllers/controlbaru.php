@@ -8,14 +8,6 @@ use App\Models\baru;
 
 class controlbaru extends Controller
 {
-    public function index(){
-        return view('welcome',[
-            'title' => baru::title(0),
-            'name' => baru::data(0),
-            'kuliah' => baru::data(4),
-            'gambarku' => baru::gambarku()
-        ]);
-    }
     public function about(){
         return view('about',[
             'title' => baru::title(1),
@@ -43,7 +35,8 @@ class controlbaru extends Controller
             'nim' =>baru::data(8),
             'jurusan' => baru::data(9),
             'agama'=>baru::data(10),
-            'umur' => baru::data(11)
+            'umur' => baru::data(11),
+            'email' => baru::data(2)
         ]);
     }
     public function contact(){

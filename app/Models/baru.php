@@ -35,7 +35,7 @@ class baru extends Model
     }
     public static function title($id){
         $data = ['welcome','about','biodata','contact'];
-        for ($i=0; $i < count($data); $i++) { 
+        for ($i=0; $i < count($data); $i++) {
             if($id === $i){
                 return $data[$i];
             }
@@ -55,7 +55,7 @@ class baru extends Model
         'Teknik Informatika',
         'islam',
         'umur'];
-        for ($i=0; $i < count($data); $i++) { 
+        for ($i=0; $i < count($data); $i++) {
             if($i === $id){
                 return $data[$id];
             }

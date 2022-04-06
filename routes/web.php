@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 //use App\Models\baru;
 use App\Http\Controllers\controlbaru;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\biodatacontroller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +16,7 @@ use App\Http\Controllers\controlbaru;
 |
 */
 
-Route::get('/',[controlbaru::class,'index']);
+Route::get('/',[HomeController::class,'index']);
 Route::get('/about',[controlbaru::class,'about']);
-Route::get('/biodata',[controlbaru::class,'biodata']);
+Route::get('/biodata',[biodatacontroller::class,'biodata']);
 Route::get('/contact',[controlbaru::class,'contact']);
